@@ -1,0 +1,10 @@
+{
+  "name": "arianstack",
+  "version": "1.0.0",
+  "description": "Arianstack CLI: IP info, DNS, non-intrusive website security checks, ping/traceroute and more - cross-platform (Linux, CMD, PowerShell)",
+  "bin": { "arianstack": "./bin/arianstack.js" },
+  "main": "src/index.js",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" }
+}
