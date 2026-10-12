@@ -43,7 +43,7 @@ Requires **Node.js 18 or later** (from nodejs.org, or `winget install OpenJS.Nod
 ### Option 1: Install directly from GitHub (npm) — all operating systems
 
 ```bash
-npm install -g github:<YOUR_GITHUB_USERNAME>/arianstack
+npm install -g github:<YOUR_GITHUB_USERNAME>/Stackstrike
 ```
 
 Then, in any terminal (bash, zsh, CMD, PowerShell), just run:
@@ -56,12 +56,12 @@ arianstack
 
 **Linux / macOS:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/arianstack/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/Stackstrike/main/scripts/install.sh | bash
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/arianstack/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/Stackstrike/main/scripts/install.ps1 | iex
 ```
 
 > Replace `<YOUR_GITHUB_USERNAME>` with your own GitHub username after you push this repo (in the two commands above, and inside `scripts/install.sh` and `scripts/install.ps1` themselves).
@@ -69,20 +69,20 @@ irm https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/arianstack/main/scr
 ### Option 3: Run without installing
 
 ```bash
-npx github:<YOUR_GITHUB_USERNAME>/arianstack myip
+npx github:<YOUR_GITHUB_USERNAME>/Stackstrike myip
 ```
 
 ### Update / uninstall
 
 ```bash
-npm install -g github:<YOUR_GITHUB_USERNAME>/arianstack   # update (same as install)
+npm install -g github:<YOUR_GITHUB_USERNAME>/Stackstrike   # update (same as install)
 npm uninstall -g arianstack                                 # remove
 ```
 
 ## Local development
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/arianstack.git
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/Stackstrike.git
 cd arianstack
 npm link        # makes the `arianstack` command available locally
 npm test
